@@ -418,7 +418,7 @@ if がどうして 'if にしないとダメだったのかの辺り
 
 Lisp って楽しいよね！
 
-![](/img/saki-san.jpg)
+![](./img/saki-san.jpg)
 
 いっしょに楽しもうよ！
 
