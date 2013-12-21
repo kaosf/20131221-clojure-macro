@@ -418,7 +418,7 @@ if がどうして 'if にしないとダメだったのかの辺り
 
 Lisp って楽しいよね！
 
-![](http://blog-imgs-54.fc2.com/h/e/r/heroch/5ebb9ef9e29acf3e807b3423218b5364.jpg)
+![](/img/saki-san.jpg)
 
 いっしょに楽しもうよ！
 
