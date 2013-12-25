@@ -28,10 +28,10 @@
 与えられた引数が並んだ「リスト」を返す
 
 ```clj
-(list a b c)
+(list 'a 'b 'c)
 ;-> (a b c)
 
-(list f 1 2 3)
+(list 'f 1 2 3)
 ;-> (f 1 2 3)
 
 (list '+ 1 2)
