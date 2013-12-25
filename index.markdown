@@ -347,7 +347,48 @@ if ってシンボルが無いと言われる
 
 `() の中では，~ が付いたものだけは評価される
 
-user/ と付いているいないはちょっと目を瞑って…
+
+## Common Lisp と Clojure の差
+
+Common Lisp あるいは Scheme では  
+例えば x が 1 で y が 2 として
+
+```commonlisp
+('x 'y x y)
+;-> (x y 1 2)
+```
+
+```commonlisp
+`(x y ,x ,y)
+;-> (x y 1 2)
+```
+
+は等価である
+
+
+## Common Lisp と Clojure の差
+
+Clojure では
+
+```commonlisp
+('x 'y x y)
+;-> (x y 1 2)
+```
+
+```commonlisp
+`(x y ~x ~y)
+;-> (user/x user/y 1 2)
+```
+
+のように名前空間で修飾される
+
+
+### 参考
+
+* [tweet その 1](https://twitter.com/omasanori/status/414248999617445888)
+* [tweet その 2](https://twitter.com/omasanori/status/414249302626926592)
+
+Thanks for [@omasanori](https://twitter.com/omasanori)
 
 
 ## unless マクロ修正
