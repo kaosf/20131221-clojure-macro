@@ -394,7 +394,7 @@ Thanks for [@omasanori](https://twitter.com/omasanori)
 ## unless マクロ修正
 
 ```clj
-(defmacro [cond then else]
+(defmacro unless [cond then else]
   `(if ~cond ~else ~then))
 ```
 
